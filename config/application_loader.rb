@@ -3,7 +3,6 @@ module ApplicationLoader
 
   def load_app!
     init_config
-    init_db
     require_app
     init_app
   end
@@ -14,15 +13,8 @@ module ApplicationLoader
     require_file 'config/initializers/config'
   end
 
-  def init_db
-    require_file 'config/initializers/db'
-  end
-
   def require_app
-    require_file 'app/helpers/validations'
-    require_dir 'app/helpers'
     require_file 'config/application'
-    require_file 'app/services/geocoder/search_service'
     require_dir 'app/contracts'
     require_dir 'app'
   end
