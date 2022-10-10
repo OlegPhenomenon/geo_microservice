@@ -1,5 +1,3 @@
-require 'json'
-
 module AdsHttp
   module Api
       def update_coordinates(id_object: payload['id'], coordinates: coordinates)
@@ -15,3 +13,4 @@ module AdsHttp
       end
   end
 end
+
