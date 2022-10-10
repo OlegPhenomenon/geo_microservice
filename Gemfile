@@ -15,6 +15,7 @@ gem 'config', '~> 2.2.1'
 # gem 'jwt', '~> 2.2.1'
 
 gem 'bunny'
+gem 'faraday'
 
 # gem 'pg', '~> 1.2.3'
 # gem 'sequel', '~> 5.32.0'

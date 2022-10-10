@@ -57,6 +57,10 @@ GEM
       dry-schema (~> 1.5)
     factory_bot (5.2.0)
       activesupport (>= 4.2.0)
+    faraday (2.6.0)
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.1)
     fast_jsonapi (1.5)
       activesupport (>= 4.2)
     i18n (1.8.2)
@@ -77,6 +81,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.3)
+    ruby2_keywords (0.0.5)
     set (1.0.3)
     sorted_set (1.0.3)
       rbtree
@@ -96,6 +101,7 @@ DEPENDENCIES
   dry-initializer (~> 3.0.3)
   dry-validation (~> 1.5.0)
   factory_bot (~> 5.2.0)
+  faraday
   fast_jsonapi (~> 1.5)
   i18n (~> 1.8.2)
   rake (~> 13.0.1)
