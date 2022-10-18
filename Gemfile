@@ -33,3 +33,5 @@ group :test do
   # gem 'rack-test', '~> 1.1.0'
   # gem 'database_cleaner-sequel', '~> 1.8.0'
 end
+
+gem "ougai", "~> 2.0"
