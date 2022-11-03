@@ -5,3 +5,6 @@
 # Ignore local config files
 config/settings.local.yml
 config/settings/*.local.yml
+
+deploy/*.tar
+deploy/*.tar.gz
